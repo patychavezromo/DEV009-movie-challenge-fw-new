@@ -1,0 +1,26 @@
+/* CSS class for the container */
+.contenedorDeTarjetas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    width: 90%;
+    margin: auto;
+}
+
+/* CSS class for the cards */
+.tarjetaDePelicula {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    text-align: center;
+}
+
+.poster {
+    display: block;
+    margin: auto;
+    width: 70%;
+}

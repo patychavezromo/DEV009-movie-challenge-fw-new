@@ -14,6 +14,7 @@ export const getPeliculas = async () => {
             sort_by: 'popularity.desc'
         } 
     }
-    return axios.get(url_base + discover_path, options);
+    return axios.get(url_base + discover_path, options)
+        .then(response => response.data);
 }
 

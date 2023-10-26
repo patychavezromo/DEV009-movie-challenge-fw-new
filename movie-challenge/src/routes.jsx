@@ -4,7 +4,7 @@ import {
     createBrowserRouter,
 } from "react-router-dom";
   
-export default createBrowserRouter([
+const routes = createBrowserRouter([
     {
         path: "/",
         element: <Home/>,
@@ -14,4 +14,5 @@ export default createBrowserRouter([
         element: <Prueba/>,
     },
 ]);
-  
+
+export default routes
