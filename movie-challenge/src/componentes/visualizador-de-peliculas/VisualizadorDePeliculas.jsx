@@ -25,7 +25,6 @@ export default function VisualizadorDePeliculas({data}) {
             onClose={() => setOpenModal(false)}
             pelicula={peliculaSeleccionada}
         />
-        dfdsaffs
     </>)
 }
 

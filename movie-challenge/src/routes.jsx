@@ -1,8 +1,6 @@
 import Home from './paginas/home/Home'
 import Prueba from './paginas/prueba/Prueba'
-import {
-    createBrowserRouter,
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
   
 const routes = createBrowserRouter([
     {
